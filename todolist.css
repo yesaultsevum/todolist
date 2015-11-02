@@ -1,0 +1,112 @@
+body{
+	background-color: #eee;
+}
+hr{
+	  border-top: 1px solid #ccc;
+}
+.title{
+   text-align: center;
+   color: #333;
+}
+a:hover{
+	text-decoration: none;
+	color: #333;
+}
+a, li{
+	color: #555;
+}
+.wrapper{
+	width: 100%;
+	margin: 100px auto;
+}
+.form-group{
+	margin-top: 30px;
+}
+.form-group input{
+	display: inline-block;
+	height: 40px;
+	width: 50%;
+	margin-left: 4%;
+	border-radius: 5px 5px 5px 5px;
+}
+.form-group button{
+	display: inline-block;
+	height: 40px;
+	width: 20%;
+	border-radius: 5px 5px 5px 5px;
+	margin-bottom: 2px;
+	font-weight: 100;
+	font-size: 1.3em;
+}
+.form-group .clear{
+	display: inline-block;
+	height: 40px;
+	width: 20%;
+	border-radius: 5px 5px 5px 5px;
+	margin-bottom: 2px;
+	font-weight: 100;
+	font-size: 1.3em;
+}
+.form-group button:focus{
+	outline:none !important;
+}
+.create, .createMarked{
+	margin-left: 7%;
+	margin-right: 14%;
+}
+.create div{
+	display: inline-block;
+}
+.finished .createMarked div{
+	display: inline-block;
+}
+.task li{
+	list-style: none;
+	margin-left: 10px;
+	font-size: 1.2em;
+}
+.taskMarked li{
+	list-style: none;
+	margin-left: 10px;
+	font-size: 1.2em;
+}
+.icon{
+	float: left;
+	margin-top: 3px;
+}
+.iconMarked{
+	float: left;
+	margin-top: 3px;
+}
+.icon2{
+	float: right;
+	margin-top: 3px;
+}
+.icon2Marked{
+    float: right;
+	margin-top: 3px;
+}
+.icon2 a{
+    color: #c7254e;
+}
+.icon2Marked a{
+    color: #c7254e;
+}
+.create .task{
+	width: 90%;
+	word-wrap: break-word;
+}
+.createMarked .task{
+	width: 90%;
+	word-wrap: break-word;
+	text-decoration: line-through;
+}
+.create .task:hover{
+	cursor: pointer;
+}
+.taskMarked:hover{
+	cursor: pointer;
+}
+.wrap{
+	height: 0px;
+}
